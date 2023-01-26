@@ -12,7 +12,7 @@
             @include('layouts.partials.messages')
 
             <div class="form-group">
-                <input type="file" name="image" class="form-control-file" id="image">
+                <input type="file" name="image" class="form-control-file" id="image" required>
                 <label for="image">Product Image</label>
             </div>
 
