@@ -25,7 +25,7 @@
             </div>
             
             <div class="form-group form-floating mb-3">
-                <textarea class="form-control" name="description">Description</textarea>
+                <textarea class="form-control" name="description" placeholder="Description">{{ old('description') }}</textarea>
                 <label for="floatingPassword">Description</label>
                 @if ($errors->has('description'))
                     <span class="text-danger text-left">{{ $errors->first('description') }}</span>
